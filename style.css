@@ -1,0 +1,94 @@
+body{
+    background-color: #cb7429;
+    text-align: center;
+    justify-content: center;
+}
+#header{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: rgb(109, 17, 3);
+}
+#container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#game{
+    height: 70vh;
+    width: 70vh;
+    background-color: #DAD4B5;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vmin;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+#instruction-box{
+    height: 30px;
+    width: 200px;
+    background-color: #413d22;
+    color:cyan;
+    font-weight: bolder;
+    align-items: center;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#inst{
+    font-size: x-large;
+}
+
+.box{
+    height: 17vmin;
+    width: 17vmin;
+    background-color: rgb(77, 42, 42);
+    border: none;
+    border-radius: 10px;
+    font-size: 8vmin;
+    color: aliceblue;
+    box-shadow: 0 0 3rem rgba(54, 53, 53, 0.59);
+}
+#reset{
+    background-color: rgb(20, 65, 20) ;
+    color: white;
+    height:30px;
+    width:100px;
+    
+    text-align: center;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+#txt{
+    font-size:5vmin;
+}
+.winner{
+    height : 100vmin;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    gap: 7rem;;
+    
+}
+.hide{
+    display: none;
+}
+#newbtn{ background-color: rgb(78, 85, 78) ;
+    color: white;
+    height:30px;
+    width:100px;
+    border: none;
+    text-align: center;
+    margin-top: 1rem;
+    border-radius: 3px;
+
+    
+}
