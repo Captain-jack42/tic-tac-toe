@@ -19,9 +19,9 @@ body{
 }
 
 #game{
-    height: 70vh;
+    /* height: 70vh; */
     width: 60vw;
-    background-color: #DAD4B5;
+    /* background-color: #DAD4B5; */
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -47,7 +47,7 @@ body{
 }
 
 .box{
-    height: 20vh;
+    height: 17vh;
     width: 15vw;
     background-color: rgb(77, 42, 42);
     border: none;
@@ -67,10 +67,10 @@ body{
     border-radius: 5px;
 }
 #txt{
-    font-size:5vmin;
+    font-size:4vmin;
 }
 .winner{
-    height : 10vh;
+    /* height : 10vh; */
     display: flex;
     justify-content:center ;
     align-items: center;
@@ -94,9 +94,9 @@ body{
 
 @media (max-width : 650px){
     #game{
-    height: 60vh;
+    /* height: 60vh; */
     width: 85vw;
-    background-color: #DAD4B5;
+    /* background-color: #DAD4B5; */
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -107,7 +107,7 @@ body{
     
 }
 .box{
-    height: 15vh;
+    height: 12vh;
     width: 25vw;
     background-color: rgb(77, 42, 42);
     border: none;
