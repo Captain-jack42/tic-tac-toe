@@ -2,7 +2,7 @@ let boxes = document.querySelectorAll(".box");
 let winner = document.querySelector(".winner");
 let message = document.querySelector("#txt")
 let resetbtn = document.querySelector("#reset");
-let newbtn =document.querySelector("#newbtn");
+// let newbtn =document.querySelector("#newbtn");
 let inst = document.querySelector("#inst");
 
 let turn = 0;
@@ -26,7 +26,7 @@ const resetGame = ()=>{
 inst.innerText="First, X turn";
 
 resetbtn.addEventListener("click",resetGame);
-newbtn.addEventListener("click",resetGame);
+// newbtn.addEventListener("click",resetGame);
 boxes.forEach((box) => {
     box.addEventListener("click",() =>{
         if(turn==1){
@@ -68,15 +68,18 @@ const boxDisable = ()=>{
 
    const showTie =()=>{
     message.innerText=`Game is Tie between X and O`;
+     resetGame();
     winner.classList.remove("hide");
     boxDisable();
+   
    }
 
   const showWinner = (winne)=>{
   message.innerText=`Congratulations, Winner is ${winne}`;
+  resetGame();
   winner.classList.remove("hide");
     boxDisable();
-
+    
   }
 
 
